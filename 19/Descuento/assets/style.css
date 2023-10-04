@@ -1,17 +1,22 @@
 @charset "UTF-8";
+body {
+	background: rgb(255, 255, 255) !important;
+	background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+}
 /* CSS Document */
 
 /* Header */
 header.header {
-    background: red;
-    padding: 10px 0;
-	margin-bottom: 25px;
+    background: rgb(253, 0, 0);
+    padding: 15px 0;
+	margin-bottom: 35px;
 }
 header.header h1 {
     text-align: center;
-    color: yellow;
-    font-size: 22px;
-	margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+	  margin: 0;
 }
 /* Header */
 
@@ -24,18 +29,36 @@ img.ultrasecreto {
 }
 section.conteudo h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 900;
-    margin: 0 auto 35px auto;
+    margin: 25px auto 50px auto;
+  	color: #000000;
+}
+section.conteudo h5 {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 25px auto 20px auto;
+  color: #000000;
+}
+section.conteudo h6 {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 25px auto 50px auto;
+  color: #e21313;
 }
 section.conteudo h2 i {
-    color: red;
+    color: rgb(42, 165, 25);
     padding: 2px 10px;
 }
 section.conteudo h3 {
     text-align: center;
     font-size: 14px;
+	color: #000000;	
     margin: 25px auto 15px auto;
 }
 section.conteudo h4 {
@@ -44,6 +67,7 @@ section.conteudo h4 {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
+	color: #ffffff;	
 	margin: 15px auto 15px auto;
 }
 section.conteudo h4 svg {
@@ -51,10 +75,10 @@ section.conteudo h4 svg {
     fill: red;
 }
 .video-vsl {
-    background: #ffffff;
+    background: #000000;
     clear: both;
     display: block;
-    border: solid 4px #ffffff;
+    border: solid 4px red;
     margin: 0 auto;
     width: 70%;
     border-radius: 5px 5px 5px 5px;
@@ -90,24 +114,68 @@ img.bt {
     width: 45%;
     margin: 0 auto;
 }
-.texto-centralizado {
-  text-align: center;
-  margin: 0px auto 0 auto;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+.video-vsl-01 {
+  clear: both;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
-.destaque {
-  font-weight: bold;
-  color: red;
-  font-size: 1.2em;
-  text-align: center;
-  margin: 35px auto 0 auto;
-  font-size: 20px;
-  background-color: yellow;
-  font-family: 'Roboto', sans-serif;
+  .video-vsl-02 {
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+img.ad {
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin: 0 auto 25px auto;
+
+    
 }
- 
+main#main h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto 25px auto;
+}
+a.cta {
+  clear: both;
+  display: block;
+  text-align: center;
+  background: green;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+  width: 50%;
+  margin: 0 auto 35px auto;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  
+}
+a.cta span {
+  clear: both;
+  display: block;
+  font-size: 18px;
+  color: yellow;
+  font-style: italic;
+}
+.blob {
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+transform: scale(1);
+animation: pulse-black 2s infinite;
+}
+.blob.green {
+box-shadow: 0 0 0 0 rgba(51, 217, 178, 1);
+animation: pulse-black 2s infinite;
+
+}
 /* Conteúdo */
 
 /* Comentários FB */
@@ -236,12 +304,13 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #fafafa;
+	background: #ffffff;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
 footer.footer p {
 	text-align: center;
+	color: #000000;
 	font-size: 10px;
 }
 .termos {
@@ -263,16 +332,32 @@ footer.footer p {
 		font-size: 16px;
 	}
 	section.conteudo h2 {
-		font-size: 21px;
+		font-size: 19px;
 	}
 	section.conteudo h3 {
 		font-size: 12px;
    		margin: 0 auto 10px auto;
 	}
+  section.conteudo h5 {
+		font-size: 14px;
+   		margin: 0 auto 16px auto;
+	}
+  section.conteudo h6 {
+		font-size: 14px;
+   		margin: 0 auto 16px auto;
+	}
 	.video-vsl {
 		width: 100%;
 		margin: 0 auto;
 	}
+.video-vsl {
+  width: 100%;
+  margin: 0 auto;
+}
+.video-vsl {
+  width: 100%;
+  margin: 0 auto;
+}
 	section.conteudo h1, section.conteudo p {
 		padding: 0 35px;
 		text-align: center;
@@ -287,6 +372,10 @@ footer.footer p {
 	.fb-comments {
 		width: 95%;
 	}
-	
+main#main h3 {
+  font-size: 16px;
+}
+a.cta {
+  width: 100%;
 }
 /* Responsivo */
