@@ -283,7 +283,10 @@ footer.footer p {
 		font-size: 16px;
 	}
 	section.conteudo h2 {
-		font-size: 17px;
+		font-size: 20px;
+	}
+  section.conteudo i {
+		font-size: 20px;
 	}
   section.conteudo h5 u {
 		font-size: 14px;

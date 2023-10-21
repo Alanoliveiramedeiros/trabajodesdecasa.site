@@ -183,11 +183,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<!-- Desconto --> 
 
 
-				<!-- CTA !-->
-				<a href="https://pay.hotmart.com/R85635405S?off=7nb8og4c" class="cta esconder">
-					<img src="img/Frame-13.webp" width="100%" height="100%" class="bt img-fluid" alt="Comprar ahora">
-				</a>
-				<!-- CTA !-->	                
+				<style>
+    .esconder {
+        display: none;
+    }
+</style>
+
+<div class="esconder">
+    <!-- HOTMART - Upsell Widget -->
+    <div style="display: flex; justify-content: center;">
+        <div id="box_hotmart" style="text-align: center;"></div>
+    </div>
+    <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+    <script>
+        opts = {
+            key: 'USL-110807-342438-1b8580ac67c6dd513a39c03bd7930fea',
+            width: '650',
+            height: '420'
+        };
+        Upsell.Widget.show(opts);
+    </script>               
                 
 			</div>
 		</div>
