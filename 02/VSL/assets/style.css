@@ -256,13 +256,13 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #000000;
+	background: #223380;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
 footer.footer p {
 	text-align: center;
-	color: #223380;
+	color: #fafafa;
 	font-size: 10px;
 }
 .termos {
