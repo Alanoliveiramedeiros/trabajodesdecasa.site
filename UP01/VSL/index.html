@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					}
 					#box_hotmart.show {
 						display: block !important;
-						animation: show  265000s forwards;
+						animation: show  10s forwards;
 					}
 					@keyframes show {
 						0% { display: none; }
@@ -213,7 +213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<script>
 					setTimeout(function() {
 						document.getElementById("box_hotmart").classList.add("show");
-					},  265000);
+					},  10);
 				</script>
 			
 				<!-- HOTMART - Upsell Widget -->
@@ -289,51 +289,7 @@ Upsell.Widget.show(opts);
 </section>
 <!-- Conteúdo !-->
 
-body {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						
-					}
-					.container {
-						text-align: center;
-					}
-					#box_hotmart {
-						display: none;
-					}
-					#box_hotmart.show {
-						display: block !important;
-						animation: show  265000s forwards;
-					}
-					@keyframes show {
-						0% { display: none; }
-						100% { display: block; }
-					}
-				</style>
-			</head>
-			<body>
-				<div class="container">
-					<div id="box_hotmart"></div>
-				</div>
-				<script>
-					setTimeout(function() {
-						document.getElementById("box_hotmart").classList.add("show");
-					},  265000);
-				</script>
-			
-				<!-- HOTMART - Upsell Widget -->
-<div id="box_hotmart"></div>
-<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
-
-<script>
-opts = {
-key: 'USL-118407-379842-f07fb00e220b174d5b24c8f8ee2f3341',
-width: '650' ,
-height: '420'
-};
-Upsell.Widget.show(opts);
-</script>
-<!-- HOTMART - Upsell Widget [end] -->	
+	
 	
 <!-- Footer !-->
 <footer class="footer" id="footer">
