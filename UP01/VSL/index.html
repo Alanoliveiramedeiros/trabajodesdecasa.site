@@ -184,39 +184,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 				<style>
-					body {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						
-					}
-					.container {
-						text-align: center;
-					}
-					#box_hotmart {
-						display: none;
-					}
-					#box_hotmart.show {
-						display: block !important;
-						animation: show  10s forwards;
-					}
-					@keyframes show {
-						0% { display: none; }
-						100% { display: block; }
-					}
-				</style>
-			</head>
-			<body>
-				<div class="container">
-					<div id="box_hotmart"></div>
-				</div>
-				<script>
-					setTimeout(function() {
-						document.getElementById("box_hotmart").classList.add("show");
-					},  10);
-				</script>
-			
-				<!-- HOTMART - Upsell Widget -->
+					
+			<!-- HOTMART - Upsell Widget -->
 <div id="box_hotmart"></div>
 <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
 
@@ -229,6 +198,7 @@ height: '420'
 Upsell.Widget.show(opts);
 </script>
 <!-- HOTMART - Upsell Widget [end] -->
+
 
                   
                 
