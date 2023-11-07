@@ -1,19 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* Header */
-header.header {
-    background: rgb(255, 255, 255);
-    padding: 10px 0;
-	margin-bottom: 25px;
+/* Reset */
+body {
+	background: #000000 url("../img/Fundo.webp") 50% 0 no-repeat !important;
 }
-header.header h1 {
-    text-align: center;
-    color: yellow;
-    font-size: 22px;
-	margin: 0;
-}
-/* Header */
+/* Reset */
 
 /* Conteúdo */
 img.ultrasecreto {
@@ -23,11 +15,12 @@ img.ultrasecreto {
     margin: 25px auto 50px auto;
 }
 section.conteudo h2 {
+  color: rgb(255, 255, 255);
     text-align: center;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
-    margin: 0 auto 35px auto;
+    margin: 25px auto 15px auto;
 }
 section.conteudo h2 u {
     color: rgb(255, 0, 0);
@@ -35,11 +28,13 @@ section.conteudo h2 u {
     
 }
 section.conteudo h3 {
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 14px;
     margin: 25px auto 15px auto;
 }
 section.conteudo h5 {
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 14px;
   margin: 0px auto 15px auto;
@@ -51,6 +46,7 @@ section.conteudo h5 u {
     
 }
 section.conteudo h4 {
+    color: rgb(255, 255, 255);
     clear: both;
     display: block;
     text-align: center;
@@ -108,6 +104,8 @@ img.bt {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+
 }
 .destaque {
   font-weight: bold;
@@ -247,7 +245,7 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #fafafa;
+	background: #000000;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
