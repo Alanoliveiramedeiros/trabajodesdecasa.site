@@ -20,7 +20,7 @@ section.conteudo h2 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
-    margin: 0 auto 35px auto;
+    margin: 25px auto 15px auto;
 }
 section.conteudo h2 u {
     color: rgb(255, 0, 0);
