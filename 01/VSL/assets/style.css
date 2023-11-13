@@ -27,7 +27,7 @@ section.conteudo h2 {
 }
 
 section.conteudo h2 u {
-    color: rgb(0, 153, 255);
+    color: #32A92D;
     padding: 2px 10px;
 }
 section.conteudo h3 {
@@ -68,7 +68,7 @@ section.conteudo h4 svg {
     background: #000000;
     clear: both;
     display: block;
-    border: solid 4px #1375d1;
+    border: solid 4px #FFCF7F;
     margin: 0 auto;
     width: 70%;
     border-radius: 5px 5px 5px 5px;
@@ -117,7 +117,7 @@ img.bt {
   font-family: 'Open Sans', sans-serif;
 }
 .destaque1 {
-color: rgb(0, 0, 0);
+color: rgb(255, 0, 0);
 font-size: 1.2em;
 text-align: center;
 margin: 35px auto 0 auto;
@@ -125,6 +125,15 @@ font-size: 32px;
 font-weight: 800;
 background-color: rgb(255, 230, 0);
 font-family: 'Open Sans', sans-serif;
+}
+.destaque2 {
+  color: rgb(255, 0, 0);
+  font-size: 1.2em;
+  text-align: center;
+  margin: 35px auto 0 auto;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Conteúdo */
 
