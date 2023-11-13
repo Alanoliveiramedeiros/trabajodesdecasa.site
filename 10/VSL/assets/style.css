@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Titillium+Web:wght@700&display=swap');
 /* CSS Document */
 
 /* Reset */
@@ -8,30 +8,34 @@ body {
 /* Reset */
 
 /* Conteúdo */
-img.ultrasecreto {
-    clear: both;
-    display: block;
-    width: 40%;
-    margin: 25px auto 50px auto;
+.imagem-rodape img {
+  clear: both;
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 12%;
+  margin: 0 auto 20px;
 }
 section.conteudo h2 {
   color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin: 25px auto 15px auto;
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 50px auto 30px auto
+  
 }
+
 section.conteudo h2 u {
-    color: rgb(255, 0, 0);
+    color: #32A92D;
     padding: 2px 10px;
-    
 }
 section.conteudo h3 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 14px;
     margin: 25px auto 15px auto;
+    font-family: 'Open Sans', sans-serif;
 }
 section.conteudo h5 {
   color: rgb(255, 255, 255);
@@ -51,18 +55,20 @@ section.conteudo h4 {
     display: block;
     text-align: center;
     font-size: 25px;
-    font-weight: 700;
-	  margin: 15px auto 15px auto;
+    font-weight: 600;
+	  margin: 15px auto 25px auto;
+    font-family: 'Open Sans', sans-serif;
 }
 section.conteudo h4 svg {
     margin-top: -8px;
-    fill: red;
+    fill: rgb(32, 161, 42);
+    
 }
 .video-vsl {
     background: #000000;
     clear: both;
     display: block;
-    border: solid 4px #1375d1;
+    border: solid 4px #FFCF7F;
     margin: 0 auto;
     width: 70%;
     border-radius: 5px 5px 5px 5px;
@@ -78,14 +84,6 @@ img.dr {
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
 }
-section.conteudo h1 {
-	font-family: "Georgia", Sans-serif !important;
-	text-align: center;
-    font-size: 17px;
-    font-weight: 700;
-    margin: 0 0 15px 0;
-	padding: 0 500px;
-}
 img.setas {
     clear: both;
     display: block;
@@ -100,22 +98,42 @@ img.bt {
 }
 .texto-centralizado {
   text-align: center;
-  margin: 0px auto 0 auto;
-  font-size: 20px;
+  margin: 0 auto 0 auto;
+  font-size: 32px;
+  font-weight: 400;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
 
 }
 .destaque {
-  font-weight: bold;
-  color: red;
+  color: rgb(0, 0, 0);
   font-size: 1.2em;
   text-align: center;
   margin: 35px auto 0 auto;
-  font-size: 20px;
-  background-color: yellow;
-  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  background-color: rgb(255, 230, 0);
+  font-family: 'Open Sans', sans-serif;
+}
+.destaque1 {
+color: rgb(255, 0, 0);
+font-size: 1.2em;
+text-align: center;
+margin: 35px auto 0 auto;
+font-size: 32px;
+font-weight: 800;
+background-color: rgb(255, 230, 0);
+font-family: 'Open Sans', sans-serif;
+}
+.destaque2 {
+  color: rgb(255, 0, 0);
+  font-size: 1.2em;
+  text-align: center;
+  margin: 35px auto 0 auto;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Conteúdo */
 
@@ -251,7 +269,9 @@ footer.footer {
 }
 footer.footer p {
 	text-align: center;
-	font-size: 10px;
+	font-size: 14px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
 }
 .termos {
 	clear: both;
@@ -259,28 +279,36 @@ footer.footer p {
 	text-align: center;
 	font-size: 14px;
 	margin: 0 0 20px 0;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+
 }
 /* Rodapé */
 
 /* Responsivo */
-@media (max-width: 700px) {
-	img.ultrasecreto {
-		width: 80%;
-		margin: 5px auto 25px auto;
-	}	
+
+  @media only screen and (max-width: 768px) {
+    body {
+        background: #000000 url("../img/Fundo celular.webp") 50% 0 no-repeat !important;
+}
+.imagem-rodape img  {
+  width: 30%;
+}	
 	header.header h1, section.conteudo h4 {
 		font-size: 16px;
 	}
 	section.conteudo h2 {
-		font-size: 17px;
+		font-size: 20px;
 	}
   section.conteudo h5 u {
 		font-size: 14px;
     margin: 0px auto 5px auto;
-    
 	}
+  section.conteudo h4 {
+    font-size: 12px;
+  } 
 	section.conteudo h3 {
-		font-size: 12px;
+		font-size: 10px;
    		margin: -5 auto 10px auto;
 	}
 	.video-vsl {
@@ -301,6 +329,19 @@ footer.footer p {
 	.fb-comments {
 		width: 95%;
 	}
-	
-}
+	.destaque {
+		font-size: 20px;
+	}
+  .destaque1 {
+		font-size: 20px;
+	}
+  .texto-centralizado {
+		font-size: 20px;
+	}
+  footer.footer p {
+    font-size: 10px;
+  } 
+  .termos{
+    font-size: 10px;
+  } 
 /* Responsivo */
