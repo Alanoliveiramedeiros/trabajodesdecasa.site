@@ -25,12 +25,10 @@ section.conteudo h2 {
   }
 section.conteudo h2 g {
     color: #0084ff;
-    padding: 1px 8px;
     font-weight: 700;
 }
 section.conteudo h2 a {
   color: #000000;
-  padding: 1px 8px;
   font-weight: 700;
 }
 section.conteudo h3 {
