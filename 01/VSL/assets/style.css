@@ -17,20 +17,22 @@ header.header h1 {
 /* Conteúdo */
 
 section.conteudo h2 {
+  clear: both;
+    display: block;
     text-align: center;
     font-size: 35px;
     font-weight: 500;
     margin: 70px auto 15px auto;
-    font-family: 'Poppins', sans-serif;
-  }
+}
+
 section.conteudo h2 g {
     color: #0084ff;
-    padding: 1px 4px;
+    padding: 1px 3px;
     font-weight: 700;
 }
 section.conteudo h2 a {
   color: #000000;
-  padding: 1px 4px;
+  padding: 1px 3px;
   font-weight: 700;
 }
 section.conteudo h3 {
@@ -263,7 +265,7 @@ footer.footer p {
 		font-size: 16px;
 	}
 	section.conteudo h2 {
-		font-size: 21px;
+		font-size: 18px;
 	}
 	section.conteudo h3 {
 		font-size: 13px;
