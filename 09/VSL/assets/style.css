@@ -1,74 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Titillium+Web:wght@700&display=swap');
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* CSS Document */
 
-/* Reset */
-body {
-	background: #000000 url("../img/Fundo.webp") 50% 0 no-repeat !important;
+/* Header */
+header.header {
+    background: red;
+    padding: 10px 0;
+	margin-bottom: 25px;
 }
-/* Reset */
+header.header h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+	margin: 0;
+}
+/* Header */
 
 /* Conteúdo */
-.imagem-rodape img {
-  clear: both;
-  display: block;
-  align-items: center;
-  text-align: center;
-  width: 12%;
-  margin: 0 auto 20px;
-}
-section.conteudo h2 {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 32px;
-  text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
-  margin: 50px auto 30px auto
-  
-}
 
-section.conteudo h2 u {
-    color: #32A92D;
+section.conteudo h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 25px auto 15px auto;
+    font-family: 'Poppins', sans-serif;
+  }
+section.conteudo h2 g {
+    color: red;
     padding: 2px 10px;
+    font-weight: 700;
 }
 section.conteudo h3 {
-    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 300;
     margin: 25px auto 15px auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-section.conteudo h5 {
-  color: rgb(255, 255, 255);
+section.conteudo h3 span {
+  color: red;
   text-align: center;
-  font-size: 14px;
-  margin: 0px auto 15px auto;
-}
-section.conteudo h5 u {
-  text-align: center;
-  font-size: 17px;
-  font-weight: 700;
-    
+  font-size: 20px;
+  margin: 25px auto 15px auto;
 }
 section.conteudo h4 {
-    color: rgb(255, 255, 255);
-    clear: both;
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-	  margin: 15px auto 25px auto;
-    font-family: 'Open Sans', sans-serif;
-}
-section.conteudo h4 svg {
-    margin-top: -8px;
-    fill: rgb(32, 161, 42);
-    
+  color: red;
+  padding: 2px 10px;
 }
 .video-vsl {
     background: #000000;
     clear: both;
     display: block;
-    border: solid 4px #FFCF7F;
+    border: solid 2px #0084ff;
     margin: 0 auto;
     width: 70%;
     border-radius: 5px 5px 5px 5px;
@@ -84,6 +65,14 @@ img.dr {
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
 }
+section.conteudo h1 {
+	font-family: "Georgia", Sans-serif !important;
+	text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+	padding: 0 500px;
+}
 img.setas {
     clear: both;
     display: block;
@@ -93,7 +82,7 @@ img.setas {
 img.bt {
     clear: both;
     display: block;
-    width: 60%;
+    width: 45%;
     margin: 0 auto;
 }
 .texto-centralizado {
@@ -101,39 +90,19 @@ img.bt {
   margin: 0 auto 0 auto;
   font-size: 32px;
   font-weight: 400;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
 
 }
 .destaque {
-  color: rgb(0, 0, 0);
-  font-size: 1.2em;
-  text-align: center;
-  margin: 35px auto 0 auto;
-  font-size: 32px;
-  font-weight: 600;
-  background-color: rgb(255, 230, 0);
-  font-family: 'Open Sans', sans-serif;
-}
-.destaque1 {
-color: rgb(255, 0, 0);
-font-size: 1.2em;
-text-align: center;
-margin: 35px auto 0 auto;
-font-size: 32px;
-font-weight: 800;
-background-color: rgb(255, 230, 0);
-font-family: 'Open Sans', sans-serif;
-}
-.destaque2 {
   color: rgb(255, 0, 0);
   font-size: 1.2em;
   text-align: center;
   margin: 35px auto 0 auto;
   font-size: 32px;
-  font-weight: 800;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: rgb(255, 230, 0);
+  font-family: 'Poppins', sans-serif;
 }
 /* Conteúdo */
 
@@ -141,8 +110,6 @@ font-family: 'Open Sans', sans-serif;
 .fb-comments {
   clear: both;
   display: block;
-  background: #fafafa;
-  border: 1px solid #e9ebee;
   border-radius: 3px;
   padding: 0 15px;
   padding-bottom: 15px;
@@ -263,53 +230,50 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #000000;
+	background: #0084ff;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
 footer.footer p {
 	text-align: center;
-	font-size: 14px;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
 }
 .termos {
+  color: #fff;
 	clear: both;
 	display: block;
 	text-align: center;
 	font-size: 14px;
 	margin: 0 0 20px 0;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-
 }
 /* Rodapé */
 
 /* Responsivo */
-
-  @media only screen and (max-width: 768px) {
-    body {
-        background: #000000 url("../img/Fundo celular.webp") 50% 0 no-repeat !important;
-}
-.imagem-rodape img  {
-  width: 30%;
-}	
+@media (max-width: 700px) {
+	img.ultrasecreto {
+		width: 80%;
+		margin: 5px auto 25px auto;
+	}	
 	header.header h1, section.conteudo h4 {
 		font-size: 16px;
 	}
 	section.conteudo h2 {
-		font-size: 20px;
+		font-size: 21px;
 	}
-  section.conteudo h5 u {
-		font-size: 14px;
-    margin: 0px auto 5px auto;
-	}
-  section.conteudo h4 {
-    font-size: 12px;
-  } 
 	section.conteudo h3 {
-		font-size: 10px;
-   		margin: -5 auto 10px auto;
+		font-size: 13px;
+    margin: 10px auto 15px auto;
+	}
+  .texto-centralizado {
+		font-size: 13px;
+    margin: 10px auto 15px auto;
+	}
+  .destaque {
+		font-size: 13px;
+    margin: 10px auto 15px auto;
+	}
+  section.conteudo h3 span {
+		font-size: 13px;
 	}
 	.video-vsl {
 		width: 100%;
@@ -329,19 +293,6 @@ footer.footer p {
 	.fb-comments {
 		width: 95%;
 	}
-	.destaque {
-		font-size: 20px;
-	}
-  .destaque1 {
-		font-size: 20px;
-	}
-  .texto-centralizado {
-		font-size: 20px;
-	}
-  footer.footer p {
-    font-size: 10px;
-  } 
-  .termos{
-    font-size: 10px;
-  } 
+	
+}
 /* Responsivo */
