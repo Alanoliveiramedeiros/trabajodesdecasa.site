@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* CSS Document */
+
+/* Header */
+header.header {
+    background: red;
+    padding: 10px 0;
+	margin-bottom: 25px;
+}
+header.header h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+	margin: 0;
+}
+/* Header */
+
+/* Conteúdo */
+
+section.conteudo h2 {
+  clear: both;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 70px auto 15px auto;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+section.conteudo h2 g {
+    color: #0084ff;
+    padding: 1px 3px;
+    font-weight: 700;
+}
+section.conteudo h2 a {
+  color: #000000;
+  padding: 1px 3px;
+  font-weight: 700;
+}
+section.conteudo h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 25px auto 15px auto;
+    font-family: 'Poppins', sans-serif;
+}
+section.conteudo h3 span {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  margin: 25px auto 15px auto;
+}
+section.conteudo h4 {
+  color: red;
+  padding: 2px 10px;
+}
+.video-vsl {
+    background: #000000;
+    clear: both;
+    display: block;
+    border: solid 2px #0084ff;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+img.dr {
+    clear: both;
+    display: block;
+    width: 12%;
+    margin: 40px auto 35px auto;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+section.conteudo h1 {
+	font-family: "Georgia", Sans-serif !important;
+	text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+	padding: 0 500px;
+}
+img.setas {
+    clear: both;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+img.bt {
+    clear: both;
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+.texto-centralizado {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+.destaque {
+  color: rgb(255, 0, 0);
+  font-size: 1.2em;
+  text-align: center;
+  margin: 35px auto 0 auto;
+  font-size: 32px;
+  font-weight: 400;
+  background-color: rgb(255, 230, 0);
+  font-family: 'Poppins', sans-serif;
+}
+/* Conteúdo */
+
+/* Comentários FB */
+.fb-comments {
+  clear: both;
+  display: block;
+  border-radius: 3px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+  width: 75%;
+  margin: 50px auto 0 auto;
+  position: relative;
+  color: #4267b2;
+}
+.fb-comments-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ebee;
+}
+.fb-comments-header span {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.fb-comments-comment {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+}
+.fb-comments-reply-wrapper {
+  margin-left: 60px;
+  border-left: 1px dotted #e9ebee;
+  padding-left: 5px;
+}
+tr,
+td {
+  border: none;
+  margin: 0;
+}
+td {
+  padding: 2.5px;
+}
+tr {
+  padding: 2.5px 0;
+}
+.fb-comments-comment-img {
+  vertical-align: top;
+  width: 48px;
+  padding-right: 5px;
+}
+
+.fb-comments-comment-img img {
+  max-width: 48px;
+  border-radius: 25px;
+}
+.fb-comments-comment-name {
+  font-size: 0.85em;
+}
+.fb-comments-comment-name name {
+  color: #365899;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-name name:hover {
+  text-decoration: underline;
+}
+.fb-comments-comment-name occupation {
+  color: #90949c;
+}
+.fb-comments-comment-text {
+  font-size: 0.9em;
+  color: #000;
+  border-radius: 21px;
+  background-color: #eaebef;
+  padding: 10px 20px;
+}
+.fb-comments-comment-text a {
+    text-decoration: none;
+}
+.fb-comments-comment-actions like,
+.fb-comments-comment-actions reply {
+  font-size: 0.75em;
+  color: #4267b2;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.fb-comments-comment-actions like.liked {
+  color: #90949c;
+}
+.fb-comments-comment-actions like:hover,
+.fb-comments-comment-actions reply:hover {
+  text-decoration: underline;
+}
+.fb-comments-comment-actions likes {
+  font-size: 13px;
+  background: url("../img/like.webp");
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+  float: right;
+  background-color: #fff;
+  border: solid #eaebef;
+  border-radius: 19px;
+}
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.fb-comments-comment-actions date:hover {
+  text-decoration: underline;
+}
+/* Comentários FB */
+
+
+/* Rodapé */
+footer.footer {
+	background: #0084ff;
+	padding: 35px 0;
+	margin: 50px auto 0 auto;
+}
+footer.footer p {
+	text-align: center;
+	font-size: 10px;
+}
+.termos {
+  color: #fff;
+	clear: both;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 0 20px 0;
+}
+/* Rodapé */
+
+/* Responsivo */
+@media (max-width: 700px) {
+	img.ultrasecreto {
+		width: 80%;
+		margin: 5px auto 25px auto;
+	}	
+	header.header h1, section.conteudo h4 {
+		font-size: 16px;
+	}
+	section.conteudo h2 {
+		font-size: 18px;
+	}
+	section.conteudo h3 {
+		font-size: 13px;
+    margin: 10px auto 15px auto;
+	}
+  .texto-centralizado {
+		font-size: 13px;
+    margin: 10px auto 15px auto;
+	}
+  .destaque {
+		font-size: 13px;
+    margin: 10px auto 15px auto;
+	}
+  section.conteudo h3 span {
+		font-size: 13px;
+	}
+	.video-vsl {
+		width: 100%;
+		margin: 0 auto;
+	}
+	section.conteudo h1, section.conteudo p {
+		padding: 0 35px;
+		text-align: center;
+	}
+	img.setas {
+		width: 50%;
+		margin: 35px auto 0 auto;
+	}
+	img.bt {
+		width: 100%;
+	}
+	.fb-comments {
+		width: 95%;
+	}
+	
+}
+/* Responsivo */
