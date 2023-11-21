@@ -59,6 +59,7 @@ section.conteudo h3 {
 section.conteudo h3 span {
   color: red;
   text-align: center;
+  font-weight: 600;
   font-size: 20px;
   margin: 25px auto 15px auto;
 }
@@ -251,7 +252,7 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #0084ff;
+	background: #000000;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
@@ -272,7 +273,7 @@ footer.footer p {
 /* Responsivo */
 @media (max-width: 700px) {
   img.ultrasecreto {
-		width: 80%;
+		width: 90%;
 		margin: 5px auto 5px auto;
 	}
 	header.header h1, section.conteudo h4 {
@@ -282,7 +283,7 @@ footer.footer p {
 		font-size: 15px;
 	}
 	section.conteudo h3 {
-		font-size: 13px;
+		font-size: 12px;
     margin: 10px auto 15px auto;
 	}
   .texto-centralizado {
@@ -294,7 +295,7 @@ footer.footer p {
     margin: 10px auto 15px auto;
 	}
   section.conteudo h3 span {
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.video-vsl {
 		width: 100%;
