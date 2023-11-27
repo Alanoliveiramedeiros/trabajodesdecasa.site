@@ -1,0 +1,33 @@
+s$(document).ready(function ()
+{
+  //Fade in delay for the background overlay (control timing here)
+	$("#bkgOverlay").delay(552000).fadeIn(400);
+  //Fade in delay for the popup (control timing here)
+	$("#delayedPopup").delay(552000).fadeIn(400);
+	
+	//Hide dialouge and background when the user clicks the close button
+	$("#btnClose").click(function (e)
+	{
+		HideDialog();
+		e.preventDefault();
+	});
+  	$(".backgroundOverlay").click(function (e)
+	{
+		HideDialog();
+		e.preventDefault();
+	});
+});
+//Controls how the modal popup is closed with the close button
+function HideDialog()
+{
+	$("#bkgOverlay").fadeOut(400);
+	$("#delayedPopup").fadeOut(300);
+}
+
+function showPosition(position) {
+	var latitude = position.coords.latitude;
+	var longitude = position.coords.longitude;
+	var location = document.getElementById("location");
+	location.innerHTML = latitude + ", " + longitude;
+  }
+  
