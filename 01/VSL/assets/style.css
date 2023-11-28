@@ -126,6 +126,7 @@ a.cta {
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   color: rgb(0, 0, 0);
+  margin: 40px auto 15px auto;
 
 }
 .destaque {
@@ -300,7 +301,7 @@ footer.footer p {
 	}
   .texto-centralizado {
 		font-size: 15px;
-    margin: 10px auto 15px auto;
+    margin: 20px auto 15px auto;
 	}
   .destaque {
 		font-size: 15px;
