@@ -73,6 +73,7 @@ section.conteudo h4 {
     display: block;
     border: solid 2px #0084ff;
     margin: 0 auto;
+    margin: 40px auto 0px auto;
     width: 70%;
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
@@ -313,6 +314,7 @@ footer.footer p {
 	.video-vsl {
 		width: 100%;
 		margin: 0 auto;
+    margin: 40px auto 0px auto;
 	}
 	section.conteudo h1, section.conteudo p {
 		padding: 0 35px;
