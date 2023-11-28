@@ -10,24 +10,23 @@ img.Headline {
   width: 70%;
   margin: 10px auto 15px auto;
 }
+section.conteudo h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px auto 0px auto;
+}
 section.conteudo h4 {
   text-align: center;
   font-size: 40px;
   font-weight: 600;
-  margin: 25px auto 15px auto;
+  margin: 50px auto 15px auto;
   font-family: 'Poppins', sans-serif;
 }
 section.conteudo h4 span {
   color: #0084ff;
   text-align: center;
   font-weight: 800;
-}
-section.conteudo h4 a {
-  color: #0084ff;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 300;
-  margin: 10px auto 0px auto;
 }
 .video-vsl {
     background: #000000;
@@ -257,8 +256,9 @@ footer.footer p {
 	}
   section.conteudo h4 {
     font-size: 18px;
+    margin: 45px auto 5px auto;
   }
-  section.conteudo h4 a {
+  section.conteudo h3 {
     font-size: 14px;
     margin: 20px auto 15px auto;
   }
@@ -271,12 +271,8 @@ footer.footer p {
 		margin: 0 auto;
     margin: 40px auto 0px auto;
 	}
-	section.conteudo h1, section.conteudo p {
-		padding: 0 35px;
-		text-align: center;
-	}
 	a.cta {
-		width: 100%;
+		width: 80%;
 		font-size: 20px;
 		padding: 16px 0;
 	}
