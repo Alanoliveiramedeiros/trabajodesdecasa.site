@@ -1,121 +1,104 @@
-@charset "UTF-8";
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/* CSS Document */
 
-/* Reset */
-body {
-	background: #000000 url("../img/Fundo.webp") 50% 0 no-repeat !important;
-}
-/* Reset */
+/* Header */
+/* Header */
 
 /* Conteúdo */
-img.ultrasecreto {
-    clear: both;
-    display: block;
-    width: 40%;
-    margin: 25px auto 50px auto;
-}
-section.conteudo h2 {
-  color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin: 0 auto 35px auto;
-}
-section.conteudo h2 u {
-    color: rgb(255, 0, 0);
-    padding: 2px 10px;
-    
+img.Headline {
+  clear: both;
+  display: block;
+  width: 70%;
+  margin: 10px auto 15px auto;
 }
 section.conteudo h3 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 14px;
-    margin: 25px auto 15px auto;
-}
-section.conteudo h5 {
-  color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 14px;
-  margin: 0px auto 15px auto;
-}
-section.conteudo h5 u {
-  text-align: center;
-  font-size: 17px;
-  font-weight: 700;
-    
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px auto 0px auto;
 }
 section.conteudo h4 {
-    color: rgb(255, 255, 255);
-    clear: both;
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-	  margin: 15px auto 15px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 50px auto 15px auto;
+  font-family: 'Poppins', sans-serif;
 }
-section.conteudo h4 svg {
-    margin-top: -8px;
-    fill: red;
+section.conteudo h4 span {
+  color: #0084ff;
+  text-align: center;
+  font-weight: 800;
 }
 .video-vsl {
     background: #000000;
     clear: both;
     display: block;
-    border: solid 4px #1375d1;
+    border: solid 2px #0084ff;
     margin: 0 auto;
+    margin: 40px auto 0px auto;
     width: 70%;
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
 }
-img.dr {
-    clear: both;
-    display: block;
-    width: 12%;
-    margin: 40px auto 35px auto;
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-}
 section.conteudo h1 {
-	font-family: "Georgia", Sans-serif !important;
 	text-align: center;
     font-size: 17px;
     font-weight: 700;
     margin: 0 0 15px 0;
 	padding: 0 500px;
 }
-img.setas {
-    clear: both;
-    display: block;
-    width: 20%;
-    margin: 0 auto;
+a.cta {
+  clear: both;
+  text-align: center;
+  background: #259c25;
+  color: #ffffff !important;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 15px 0;
+  width: 35%;
+  margin: 35px auto 0 auto;
+  border: 1px solid #259c25;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 15px 5px #259c25; 
 }
-img.bt {
-    clear: both;
-    display: block;
-    width: 60%;
-    margin: 0 auto;
+.pulsar {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse{
+0%,100%{transform:scale(.9);opacity:.9;}
+50%{transform:scale(1);opacity:1;}
+}
+@-webkit-keyframes pulse{
+0%,100%{-webkit-transform:scale(.95);opacity:.7}
+50%{-webkit-transform:scale(1);opacity:1}
 }
 .texto-centralizado {
   text-align: center;
-  margin: 0px auto 0 auto;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(255, 255, 255);
+  margin: 0 auto 0 auto;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 40px auto 15px auto;
 
 }
 .destaque {
-  font-weight: bold;
-  color: red;
+  color: rgb(255, 0, 0);
   font-size: 1.2em;
   text-align: center;
   margin: 35px auto 0 auto;
-  font-size: 20px;
-  background-color: yellow;
-  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  background-color: rgb(255, 230, 0);
+  font-family: 'Poppins', sans-serif;
 }
 /* Conteúdo */
 
@@ -123,8 +106,6 @@ img.bt {
 .fb-comments {
   clear: both;
   display: block;
-  background: #fafafa;
-  border: 1px solid #e9ebee;
   border-radius: 3px;
   padding: 0 15px;
   padding-bottom: 15px;
@@ -245,7 +226,7 @@ tr {
 
 /* Rodapé */
 footer.footer {
-	background: #000000;
+	background: #808080;
 	padding: 35px 0;
 	margin: 50px auto 0 auto;
 }
@@ -254,6 +235,7 @@ footer.footer p {
 	font-size: 10px;
 }
 .termos {
+  color: #fff;
 	clear: both;
 	display: block;
 	text-align: center;
@@ -264,39 +246,35 @@ footer.footer p {
 
 /* Responsivo */
 @media (max-width: 700px) {
-	img.ultrasecreto {
-		width: 80%;
-		margin: 5px auto 25px auto;
-	}	
-	header.header h1, section.conteudo h4 {
-		font-size: 16px;
+  img.Headline {
+		width: 100%;
+		margin: 5px auto 5px auto;
 	}
-	section.conteudo h2 {
-		font-size: 17px;
+  .texto-centralizado {
+		font-size: 18px;
+    margin: 20px auto 15px auto;
 	}
-  section.conteudo h5 u {
-		font-size: 14px;
-    margin: 0px auto 5px auto;
-    
-	}
-	section.conteudo h3 {
-		font-size: 12px;
-   		margin: -5 auto 10px auto;
+  section.conteudo h4 {
+    font-size: 18px;
+    margin: 45px auto 5px auto;
+  }
+  section.conteudo h3 {
+    font-size: 16px;
+    margin: 20px auto 15px auto;
+  }
+  .destaque {
+		font-size: 15px;
+    margin: 10px auto 15px auto;
 	}
 	.video-vsl {
 		width: 100%;
 		margin: 0 auto;
+    margin: 40px auto 0px auto;
 	}
-	section.conteudo h1, section.conteudo p {
-		padding: 0 35px;
-		text-align: center;
-	}
-	img.setas {
-		width: 50%;
-		margin: 35px auto 0 auto;
-	}
-	img.bt {
-		width: 100%;
+	a.cta {
+		width: 80%;
+		font-size: 20px;
+		padding: 16px 0;
 	}
 	.fb-comments {
 		width: 95%;
