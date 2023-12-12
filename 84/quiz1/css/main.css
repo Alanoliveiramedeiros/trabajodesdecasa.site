@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Titillium+Web:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
 
 /*RESET CSS BEGIN*/
@@ -146,7 +146,7 @@ table {
 .page_thanks h2 {
     font-size: 34px;
     line-height: 39px;
-    color: #d41233;
+    color: #0084ff;
     text-align: center;
     font-weight: 700;
     margin-bottom: 20px;
@@ -173,7 +173,7 @@ i {
 }
 
 .pink_color {
-    color: #d41233 !important;
+    color: #0084ff !important;
 }
 
 .lightblue_color {
@@ -404,7 +404,7 @@ section.main .image {
 
 .navigation .sub-menu li a:hover {
     border: 0;
-    color: #d41233;
+    color: #0084ff;
 }
 
 .navigation .sub-menu {
@@ -447,7 +447,7 @@ section.main .image {
 
 .navigation a.active,
 .navigation a:hover {
-    border-bottom: 2px solid #d41233;
+    border-bottom: 2px solid #0084ff;
 }
 
 section.quiz {
@@ -507,11 +507,12 @@ section.quiz .step.disabled {
 
 section.quiz .step.active,
 section.quiz .step.done {
-    background: #3b5998;
+    background: #0084ff;
+    
 }
 
 section.quiz .step.active:after {
-    border-left: 10px solid #3b5998 !important;
+    border-left: 10px solid #0084ff !important;
 }
 
 section.quiz .step:after,
@@ -534,11 +535,11 @@ section.quiz .step.first {
 }
 
 section.quiz .step {
-    background: #bbb;
+    background: #0084ff;
 }
 
 section.quiz .step:after {
-    border-left: 10px solid #bbb;
+    border-left: 10px solid #0084ff;
 }
 
 section.quiz .step.disabled:after {
@@ -675,12 +676,15 @@ div.questions p {
   div.questions p.custom-width {
     background-color: white;
     text-align: center;
+    font-family: 'Titillium Web', sans-serif;
   }
 
   div.questions h1  {
     color: rgb(255, 255, 255);
     font-size: 25px;
-    font-weight: 900; /* Usando um valor maior para deixar a fonte mais grossa */
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+
   }
 
 div.questions p.custom {
@@ -772,10 +776,10 @@ section.quiz .questions h3,
 .final-box h3 {
     font-size: 26px;
     line-height: 32px;
-    color: #3b5998;
+    color: #0084ff;
     text-align: center;
     margin: 0 auto 15px;
-		font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -791,13 +795,13 @@ section.quiz .questions .final .image {
 
 section.quiz .questions .final .image span {
     max-width: 90%;
-    display: inline-block;
+    display: inline;
     padding-left: 10px;
 }
 
 section.quiz .questions h3 span {
     line-height: 27px;
-    color: #3b5998;
+    color: #0084ff;
     text-transform: none;
 }
 
@@ -842,7 +846,7 @@ section.quiz .progress .half {
 section.quiz .questions .box:hover img,
 section.quiz .questions .box img.selected,
 section.quiz .questions .box.selected {
-    border-color: #3b5998 !important;
+    border-color: #000000 !important;
 }
 
 section.quiz .progress {
@@ -872,7 +876,7 @@ section.quiz .questions .box img {
 
 section.quiz .questions.male .three_by_three .box,
 section.quiz .questions.male .two_by_two .box {
-    margin: 0 auto 20px !important;
+    margin: 0 auto 4px !important;
     text-align: center;
     width: 100%;
     display: block;
@@ -881,11 +885,12 @@ section.quiz .questions.male .two_by_two .box {
     background: #e8e8e8;
     padding: 10px 10px 10px 40px;
     border: 1px solid transparent;
+    border-radius: 10px;
 }
 
 section.quiz .questions.male .three_by_three .box:hover,
 section.quiz .questions.male .two_by_two .box:hover {
-    border-color: #3b5998;
+    border-color: #000000;
 }
 
 section.quiz .questions.male .steps .two_by_two {
@@ -893,7 +898,7 @@ section.quiz .questions.male .steps .two_by_two {
 }
 
 section.quiz .questions.male .box input[type=radio]:checked + label:before {
-    background: #3b5998;
+    background: #000000;
 }
 
 section.quiz .questions.male .box label:after,
@@ -926,6 +931,8 @@ section.quiz .questions .box label {
     position: relative;
     cursor: pointer;
     text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
 section.quiz .questions .box label.custom_width {
@@ -954,7 +961,7 @@ section.quiz .questions .box label:before {
 }
 
 section.quiz .questions .box label:before {
-    background: #d41233;
+    background: #0084ff;
     z-index: 99;
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
@@ -981,7 +988,7 @@ section.quiz .questions .box input[type=radio]:checked + label:before {
 
 footer {
 	    color: #fff;
-    background: #000000;
+    background: #0084ff;
     padding: 30px 10px 20px;
     text-align: center;
     position: relative;
@@ -1111,7 +1118,7 @@ input {
 }
 
 .final-box input[type=email].error {
-    border: 1px solid #d41233;
+    border: 1px solid #0084ff;
 }
 
 .steps.final .final-box input[type=email] + p {
@@ -1121,7 +1128,7 @@ input {
     padding: 0;
     background: none;
     margin: 5px auto 10px;
-    color: #db3333;
+    color: #0084ff;
     text-align: center;
     font-weight: bold;
     transition: all 0.35s ease-in-out 0s;
@@ -1140,7 +1147,7 @@ input {
     font-weight: 700;
     text-transform: uppercase;
     color: white;
-    background: #d41233;
+    background: #0084ff;
     padding: 10px 40px;
     cursor: pointer;
     margin-bottom: 30px;
@@ -1151,7 +1158,7 @@ input {
 }
 
 .final-box input[type=submit].yelbtn {
-    background: #d41233;
+    background: #0084ff;
     text-shadow: 0px 0px 2px #888;
 }
 
@@ -1195,7 +1202,7 @@ input {
 }
 .today-large .red-border-box {
 
-	border:5px solid #d41233;
+	border:5px solid #0084ff;
 
 	display: table;
 
@@ -1344,7 +1351,7 @@ section.quiz .progress.finished:before {
     margin: 20px auto 20px;
 }
 .steps.final .final-box .pink_box {
-    background: #d41233;
+    background: #0084ff;
     position: relative;
     padding: 15px 30px;
     margin: 30px 0 30px;
@@ -1355,7 +1362,7 @@ section.quiz .progress.finished:before {
     height: 0;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-top: 20px solid #d41233;
+    border-top: 20px solid #0084ff;
     position: absolute;
     bottom: -13px;
     right: 0;
@@ -1726,7 +1733,7 @@ section.quiz .questions .custom_box.selected{border:none;}
 
     .navigation li a:hover {
         border-bottom: 0px;
-        color: #d41233;
+        color: #0084ff;
     }
 
     .navigation li {
@@ -1922,4 +1929,3 @@ section.quiz .questions .custom_box.selected{border:none;}
 }
 
 /*MEDIA QUERIES END*/
-h1
