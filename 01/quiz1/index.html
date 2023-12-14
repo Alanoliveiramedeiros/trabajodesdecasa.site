@@ -6,16 +6,6 @@
     <link rel="stylesheet" href="css/main.css">
 
 
-<!-- HOTMART -->
-<script id="hotmart_launcher_script">
-	(function(l,a,u,n,c,h,e,r){l['HotmartLauncherObject']=c;l[c]=l[c]||function(){
-	(l[c].q=l[c].q||[]).push(arguments)},l[c].l=1*new Date();h=a.createElement(u),
-	e=a.getElementsByTagName(u)[0];h.async=1;h.src=n;e.parentNode.insertBefore(h,e)
-	})(window,document,'script','//launcher.hotmart.com/launcher.js','hot');
-
-	hot('account','5f6cf9ce-2155-3c9c-bcf5-3aff27fc87d8');
-</script>
-<!-- HOTMART -->
 
 <!-- Meta Pixel Code -->
 <script>
@@ -71,6 +61,93 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=750904706749376&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '6639551939507940');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=6639551939507940&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<!-- backredirect !-->
+<script>
+    (function(b) {
+    var a = {
+    version: "0.0.1",
+    history_api: typeof history.pushState !== "undefined",
+    init: function() {
+    b.location.hash = "#no-back";
+    a.configure();
+    },
+    hasChanged: function() {
+    if (b.location.hash == "#no-back") {
+    b.location.hash = "#";
+    b.location.href = " https://ingresosdelossuenos.site/backredirect/ "; //LINK PARA REDIRECIONAR AQUI
+    }
+    },
+    checkCompat: function() {
+    if (b.addEventListener) {
+    b.addEventListener("hashchange", a.hasChanged, false);
+    } else {
+    if (b.attachEvent) {
+    b.attachEvent("onhashchange", a.hasChanged);
+    } else {
+    b.onhashchange = a.hasChanged;
+    }
+    }
+    },
+    configure: function() {
+    if (b.location.hash == "#no-back") {
+    if (this.history_api) {
+    history.pushState(null, "", "#");
+    } else {
+    b.location.hash = "#";
+    b.location.href = " https://ingresosdelossuenos.site/backredirect/ "; //LINK PARA REDIRECIONAR AQUI
+    }
+    }
+    a.checkCompat();
+    a.hasChanged();
+    }
+    };
+    if (typeof define === "function" && define.amd) {
+    define(function() {
+    return a;
+    });
+    } else {
+    if (typeof module === "object" && module.exports) {
+    module.exports = a;
+    } else {
+    b.noback = a;
+    }
+    }
+    a.init();
+    }(window));
+    </script>
+<!-- backredirect !-->
+
+
+		<script id="hotmart_launcher_script">
+			(function(l,a,u,n,c,h,e,r){l['HotmartLauncherObject']=c;l[c]=l[c]||function(){
+			(l[c].q=l[c].q||[]).push(arguments)},l[c].l=1*new Date();h=a.createElement(u),
+			e=a.getElementsByTagName(u)[0];h.async=1;h.src=n;e.parentNode.insertBefore(h,e)
+			})(window,document,'script','//launcher.hotmart.com/launcher.js','hot');
+
+			hot('account','b5870f87-ac3a-3cfe-9c22-7daf7ae54dea');
+		</script>
+
 
 
 
@@ -201,94 +278,32 @@ src="https://www.facebook.com/tr?id=750904706749376&ev=PageView&noscript=1"
  <!-- DATA !-->
 
   
-  <!-- Fixador de src !-->
-<script>
-	function parseQuery(qstr) {
-	var query = {};
-	var a = (qstr[0] === '?' ? qstr.substr(1) : qstr).split('&');
-	for (var i = 0; i < a.length; i++) {
-	var b = a[i].split('=');
-	query[decodeURIComponent(b[0])] = decodeURIComponent(b[1] || '');
-	}
-	return query;
-	}
-	function encodeQuery(obj) {
-	var str = [];
-	for (var p in obj)
-	if (obj.hasOwnProperty(p)) {
-	str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
-	}
-	return str.join("&");
-	}
-	function addQueryParameterToDomain(key, value) {
-	var links = document.querySelectorAll('a[href]'),
-	linksLength = links.length,
-	index,
-	queryIndex,
-	queryString,
-	query,
-	url,
-	domain,
-	colonSlashSlash;
-	for (index = 0; index < linksLength; ++index) {
-	url = links[index].href,
-	queryIndex = url.indexOf('?'),
-	colonSlashSlash = url.indexOf('://');
-	domain = url.substring(colonSlashSlash + 3);
-	domain = domain.substring(0, domain.indexOf('/'));
-	if (queryIndex === -1) {
-	url += '?' + key + '=' + value;
-	} else {
-	queryString = url.substring(queryIndex);
-	url = url.substring(0, queryIndex);
-	query = parseQuery(queryString);
-	query[key] = value;
-	url += '?' + encodeQuery(query);
-	}
-	links[index].href = url;
-	}
-	}
-	function addQuery(item) {
-	
-	var arr = item.split('=');
-	if(arr[0] != null && arr[1] != undefined) {
-	addQueryParameterToDomain(arr[0], arr[1]);
-	}
-	}
-	jQuery(function() {
-	var url = window.location.search.replace("?", "");
-	var itens = url.split('&');
-	itens.forEach(addQuery);
-	});
-	</script>
-<!-- Fixador de src !-->
-
-<!-- Fixador de utm !-->	
-<script>
-	let prefix = ["trabajodesdecasa.site"];
-	function getParams() {
-	let t = "",
-	e = window.top.location.href,
-	r = new URL(e);
-	if (null != r) {
-	let a = r.searchParams.get("utm_source"),
-	n = r.searchParams.get("utm_medium"),
-	o = r.searchParams.get("utm_campaign"),
-	m = r.searchParams.get("utm_id"),
-	c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t =
-	`&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
-	}
-	return t
-	}! function() {
-	var t = new URLSearchParams(window.location.search);
-	t.toString() && document.querySelectorAll("a").forEach(function(e) {
-	for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 ===
-	e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() +
-	getParams())
-	})
-	}(); </script>
-<!-- Fixador de utm !-->
-
-
-  </body>
+</body>
 </html>
+
+
+
+<script>
+    let prefix = ["https://payment.hotmart.com", "https://pay.hotmart.com"];
+
+function getParams() {
+    let t = "",
+        e = window.top.location.href,
+        r = new URL(e);
+    if (null != r) {
+        let a = r.searchParams.get("utm_source"),
+            n = r.searchParams.get("utm_medium"),
+            o = r.searchParams.get("utm_campaign"),
+            m = r.searchParams.get("utm_term"),
+            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+    }
+    return t
+}! function() {
+    var t = new URLSearchParams(window.location.search);
+    t.toString() && document.querySelectorAll("a").forEach(function(e) {
+        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+    })
+}();
+</script>
+
+
