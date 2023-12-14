@@ -82,59 +82,69 @@ src="https://www.facebook.com/tr?id=750904706749376&ev=PageView&noscript=1"
 
 <!-- backredirect !-->
 <script>
-	(function(b) {
-	var a = {
-	version: "0.0.1",
-	history_api: typeof history.pushState !== "undefined",
-	init: function() {
-	b.location.hash = "#no-back";
-	a.configure();
-	},
-	hasChanged: function() {
-	if (b.location.hash == "#no-back") {
-	b.location.hash = "#";
-	b.location.href = " https://ingresosdelossuenos.site/backredirect/ "; //LINK PARA REDIRECIONAR AQUI
-	}
-	},
-	checkCompat: function() {
-	if (b.addEventListener) {
-	b.addEventListener("hashchange", a.hasChanged, false);
-	} else {
-	if (b.attachEvent) {
-	b.attachEvent("onhashchange", a.hasChanged);
-	} else {
-	b.onhashchange = a.hasChanged;
-	}
-	}
-	},
-	configure: function() {
-	if (b.location.hash == "#no-back") {
-	if (this.history_api) {
-	history.pushState(null, "", "#");
-	} else {
-	b.location.hash = "#";
-	b.location.href = " https://ingresosdelossuenos.site/backredirect/ "; //LINK PARA REDIRECIONAR AQUI
-	}
-	}
-	a.checkCompat();
-	a.hasChanged();
-	}
-	};
-	if (typeof define === "function" && define.amd) {
-	define(function() {
-	return a;
-	});
-	} else {
-	if (typeof module === "object" && module.exports) {
-	module.exports = a;
-	} else {
-	b.noback = a;
-	}
-	}
-	a.init();
-	}(window));
-	</script>
+    (function(b) {
+    var a = {
+    version: "0.0.1",
+    history_api: typeof history.pushState !== "undefined",
+    init: function() {
+    b.location.hash = "#no-back";
+    a.configure();
+    },
+    hasChanged: function() {
+    if (b.location.hash == "#no-back") {
+    b.location.hash = "#";
+    b.location.href = " https://ingresosdelossuenos.site/backredirect/ "; //LINK PARA REDIRECIONAR AQUI
+    }
+    },
+    checkCompat: function() {
+    if (b.addEventListener) {
+    b.addEventListener("hashchange", a.hasChanged, false);
+    } else {
+    if (b.attachEvent) {
+    b.attachEvent("onhashchange", a.hasChanged);
+    } else {
+    b.onhashchange = a.hasChanged;
+    }
+    }
+    },
+    configure: function() {
+    if (b.location.hash == "#no-back") {
+    if (this.history_api) {
+    history.pushState(null, "", "#");
+    } else {
+    b.location.hash = "#";
+    b.location.href = " https://ingresosdelossuenos.site/backredirect/ "; //LINK PARA REDIRECIONAR AQUI
+    }
+    }
+    a.checkCompat();
+    a.hasChanged();
+    }
+    };
+    if (typeof define === "function" && define.amd) {
+    define(function() {
+    return a;
+    });
+    } else {
+    if (typeof module === "object" && module.exports) {
+    module.exports = a;
+    } else {
+    b.noback = a;
+    }
+    }
+    a.init();
+    }(window));
+    </script>
 <!-- backredirect !-->
+
+
+		<script id="hotmart_launcher_script">
+			(function(l,a,u,n,c,h,e,r){l['HotmartLauncherObject']=c;l[c]=l[c]||function(){
+			(l[c].q=l[c].q||[]).push(arguments)},l[c].l=1*new Date();h=a.createElement(u),
+			e=a.getElementsByTagName(u)[0];h.async=1;h.src=n;e.parentNode.insertBefore(h,e)
+			})(window,document,'script','//launcher.hotmart.com/launcher.js','hot');
+
+			hot('account','b5870f87-ac3a-3cfe-9c22-7daf7ae54dea');
+		</script>
 
 
 </head>
@@ -497,11 +507,37 @@ src="https://www.facebook.com/tr?id=750904706749376&ev=PageView&noscript=1"
 </footer>
 <!-- Footer !-->
 	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
-</main>		
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>   
+</main>     
 <!-- JS Bootstrap !-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-<!-- JS Bootstrap !-->	
+<!-- JS Bootstrap !-->  
 </body>
 </html>
+
+
+<script>
+    let prefix = ["https://payment.hotmart.com", "https://pay.hotmart.com"];
+
+function getParams() {
+    let t = "",
+        e = window.top.location.href,
+        r = new URL(e);
+    if (null != r) {
+        let a = r.searchParams.get("utm_source"),
+            n = r.searchParams.get("utm_medium"),
+            o = r.searchParams.get("utm_campaign"),
+            m = r.searchParams.get("utm_term"),
+            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+    }
+    return t
+}! function() {
+    var t = new URLSearchParams(window.location.search);
+    t.toString() && document.querySelectorAll("a").forEach(function(e) {
+        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+    })
+}();
+</script>
+
+
