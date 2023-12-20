@@ -683,6 +683,7 @@ div.questions p {
     color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: 900;
+    margin: 0 0 10px 0 !important;
     font-family: 'Titillium Web', sans-serif;
 
   }
@@ -1349,8 +1350,8 @@ section.quiz .progress.finished:before {
 	max-width:100%;
 	font-size: 20px;
     line-height: 25px;
-		text-align:center;
-		color:#000;
+	text-align:center;
+	color:#000;
 
 	}
 .steps.final .final-box p.custom_width {
@@ -1380,7 +1381,7 @@ section.quiz .progress.finished:before {
 .steps.final .final-box .pink_box p {
     margin: 0;
     color:#fff;
-	    font-size: 22px;
+	font-size: 22px;
     line-height: 32px;
     font-weight: 700;
 }
